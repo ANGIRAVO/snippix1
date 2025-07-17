@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/owner",
-        destination: "https://github.com/aayushbharti",
+        destination: "https://github.com/ANGIRAVO",
         permanent: true,
       },
     ];
