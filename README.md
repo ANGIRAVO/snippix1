@@ -7,6 +7,38 @@ Project Live at: https://snippix1.vercel.app/
 
 ---
 
+## Visual Overview
+
+```mermaid
+flowchart TD
+    A0["Application State (Zustand Store)
+"]
+    A1["Code Editor Core
+"]
+    A2["UI Component System
+"]
+    A3["Snippet Customization Controls
+"]
+    A4["Export and Sharing Functionality
+"]
+    A5["Dynamic Options Data
+"]
+    A6["Root Page Orchestration
+"]
+    A3 -- "Updates preferences" --> A0
+    A1 -- "Modifies editor state" --> A0
+    A4 -- "Reads snippet data" --> A0
+    A6 -- "Initializes state" --> A0
+    A0 -- "Configures editor" --> A1
+    A5 -- "Provides option values" --> A3
+    A2 -- "Composes controls" --> A3
+    A6 -- "Renders editor" --> A1
+    A6 -- "Renders UI" --> A2
+    A4 -- "Captures content" --> A1
+    A6 -- "Applies style data" --> A5
+```
+
+
 ## 🎨 Features
 
 - 10+ elegant themes (light + dark theme included).
